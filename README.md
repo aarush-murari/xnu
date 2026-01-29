@@ -282,6 +282,7 @@ If the install list that you are interested does not exist, create it
 by adding the appropriate file lists.  The default install lists, its
 member file lists and their default location are described below -
 
+```
 a. `INSTALL_MI_LIST`, `INSTALL_MODULEMAP_MI_LIST` : Installs header and module map
     files to a location that is available to everyone in user level.
     Locations -
@@ -364,6 +365,7 @@ l. `INSTALL_EXCLAVECORE_MI_LIST` : Installs header file to location that is
         $(DSTROOT)/System/ExclaveCore/usr/include
     Definition -
         INSTALL_EXCLAVECORE_MI_LIST = ${EXCLAVECORE_DATAFILES}
+```
 
 If you want to install the header file in a sub-directory of the paths
 described in (1), specify the directory name using two variables
